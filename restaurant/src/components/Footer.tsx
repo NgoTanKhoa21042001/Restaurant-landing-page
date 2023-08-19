@@ -1,7 +1,15 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <div className="h-12 md:h-24 lg:p-20 flex items-center justify-between text-red-500">
+      <Link href="/" className="font-bold">
+        MASSIMO
+      </Link>
+      <p>© ALL RIGHTS RESERVED.</p>
+    </div>
+  );
 };
 
 export default Footer;

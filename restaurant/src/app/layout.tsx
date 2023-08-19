@@ -23,6 +23,7 @@ export default function RootLayout({
         {" "}
         <Notifications />
         <Navbar />
+        {/* children là phần root page.tsx  */}
         {children}
         <Footer />
       </body>
