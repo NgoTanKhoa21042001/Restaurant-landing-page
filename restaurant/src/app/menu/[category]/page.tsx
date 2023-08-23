@@ -7,10 +7,10 @@ import React from "react";
 const CategoryPage = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-red-500">
-      {pizzas.map((item, id) => (
+      {pizzas.map((item) => (
         <Link
-          href={`product/${item.id}`}
           className="w-full h-[60vh] border-r-2 border-b-2 border-red-500 p-4 flex flex-col justify-between group"
+          href={`/product/${item.id}`}
           key={item.id}
         >
           {/* Image */}
